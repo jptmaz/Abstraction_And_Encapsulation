@@ -5,7 +5,7 @@ class Fan():
     MEDIUM = 2
     FAST = 3
     #Constructor that creates fan with specified speed, radius, color, and on (default false)
-    def __init__(self, speed = SLOW, radius = 5, color = "BLUE", on="FALSE"):    
+    def __init__(self, speed = SLOW, radius = 5, color = "BLUE", on = False):    
         #Private int data that specifies speed of fan
         self.speed = speed
         # Private bool data field that specifies whether or not the fan is on(Default is False)
