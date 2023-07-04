@@ -1,6 +1,8 @@
 from Fanclass_prog import Fan
 
 class Test_Fan:
+    Fan = Fan
+    
     def FC_Test_Run(self):
         self.fan_1 = Fan(Fan.FAST, 10, "YELLOW", "TRUE")
         self.fan_2 = Fan(Fan.MEDIUM, 5, "BLUE", "FALSE")
