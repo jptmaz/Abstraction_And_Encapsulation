@@ -11,7 +11,7 @@ def main():
             pet_name = pc_prog.set_name()
             pet_type = pc_prog.set__animal_type()
             pet_age = pc_prog.set_age()
-            Vettie_pet = f"Your pet, {pc_prog.get_name()}, is a/an {pc_prog.get_animal_type()}, and is a/an {pc_prog.get_age()}"
+            Vettie_pet = f"Your pet, {pc_prog.get_name()}, is a/an {pc_prog.get_animal_type()}, and is a/an {pc_prog.get_age()}-year-old"
             print(Vettie_pet)
             print(""" Thank you for using Vettie!
                   -
