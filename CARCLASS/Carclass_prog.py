@@ -6,12 +6,15 @@ class Car():
         self.__year_model = year_model
         self.__make = make
         self.__speed = 0
+        
     #The class should have the methods, accelerate, brake, and get_speed.
     def accelerate(self):
-        self.__speed += 5
+        while self.__speed != 5:
+            self.__speed = self.__speed + 1
     
     def brake(self):
-        self.__speed -= 5
+           while self.__speed != 0:
+            self.__speed = self.__speed - 1
         
     def get_speed(self):
         return self.__speed
