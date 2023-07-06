@@ -15,4 +15,5 @@ print(f"Brake is = {Brake}")
 while(Brake != 0):
     Broomie.brake()
     Brake = Brake - 1
-    print(Broomie.get_speed())
+    Broomie_Status_Brake = Broomie.get_speed()
+    print(f"You used the brakes, you're slowing down to {Broomie_Status_Brake} km/h.")
