@@ -13,6 +13,11 @@ def main():
             pet_age = pc_prog.set_age()
             Vettie_pet = f"Your pet, {pc_prog.get_name()}, is a/an {pc_prog.get_animal_type()}, and is a/an {pc_prog.get_age()}"
             print(Vettie_pet)
+            print(""" Thank you for using Vettie!
+                  -
+                  -
+                  -
+                  """)
         elif Vettie_command == "NO":
             break
         else:
