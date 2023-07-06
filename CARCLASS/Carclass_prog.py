@@ -9,12 +9,10 @@ class Car():
         
     #The class should have the methods, accelerate, brake, and get_speed.
     def accelerate(self):
-        while self.__speed != 5:
-            self.__speed = self.__speed + 1
+        self.__speed = self.__speed + 1
     
     def brake(self):
-           while self.__speed != 0:
-            self.__speed = self.__speed - 1
+        self.__speed = self.__speed - 1
         
     def get_speed(self):
         return self.__speed
