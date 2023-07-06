@@ -9,10 +9,5 @@ while(Acceleration != 5):
     Broomie_Status_Acceleration = Broomie.get_speed()
     print(f"You accelerated, Broomie's speed is {Broomie_Status_Acceleration} km/h")
 
-Brake = Broomie_Status_Acceleration
-print(Brake)
-
-while(Brake != 5):
-    Broomie.brake()
-    Brake = Brake - 1
-    print(Brake)
+Brake = Acceleration
+print(f"Brake is = {Brake}")
