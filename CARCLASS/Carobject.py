@@ -15,4 +15,4 @@ while Acceleration!= 0:
     Broomie.brake()
     Acceleration= Acceleration- 1
     Broomie_Status_Brake = Broomie.get_speed()
-    print(f"You used the brakes, Broomie's speed is no {Broomie_Status_Brake}")
+    print(f"You used the brakes, Broomie's speed is now {Broomie_Status_Brake}")
