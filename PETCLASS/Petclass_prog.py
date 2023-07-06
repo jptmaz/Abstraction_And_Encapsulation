@@ -11,7 +11,7 @@ class Pet():
         self.__name = name
     #Method that assigns value to the __animal_type
     def set__animal_type(self):
-        animal = str(input("Enter animal type: ")).upper
+        animal = (input("Enter animal type: ")).upper
         self.__animal_type = animal
     #Method that assigns value to __age
     def set_age(self):
